@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald";
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+}
+.profile-pic {
+    width: 15%;
+    max-width: 25%;
+}
+
+.header {
+    background-color: #000000;
+    color: #fdfdfd;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%; 
+    text-align: center; 
+}
+
+.header a {
+    display: block; 
+    margin-bottom: 0.5rem; 
+}
+
+.profile-picture {
+    width: 80px;
+    box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
+}
+
+.main {
+    padding: 1rem;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #114c50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: .9rem;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.footer span {
+    text-decoration: underline;
+}
+
+.last-update {
+    color: gold;
+}
