@@ -7,9 +7,8 @@
     <meta name="description" content="WDD 230 - Web Frontend Development - Jonathan Ricardo de Aguiar - Brigham Young University Idaho ">
     <title>[Jonathan R. de Aguiar WDD 230 - Web Frontend Development</title>
     <link type="text/css" rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="path/to/custom-normalization.css">
-    <link rel="stylesheet" href="path/to/your/other-styles.css">
-    <link rel="stylesheet" href="path/to/larger.css">
+    <link rel="stylesheet" href="custom-normalization.css">
+    <link rel="stylesheet" href="larger.css">
 </head>
   <body>
     <header class="header">
@@ -54,7 +53,7 @@
         </section>
     </main>
     <footer>
-        
+
         <p class="copyright">&copy; <span id="currentyear"></span> Jonathan Ricardo de Aguiar - Brazil</p>
 
         <p id="lastModified"></p>
@@ -63,5 +62,7 @@
         document.getElementById('currentYear').textContent = new Date().getFullYear();
         document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified;
     </script>
+    
   </body>
+
 </html>

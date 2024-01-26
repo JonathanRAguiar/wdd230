@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Week 02 Assignment - Design Principles By Jonathan Ricardo de Aguiar">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="custom-normalization.css">
+    <link rel="stylesheet" href="larger.css">
     <title>Design Principles: Jonathan Ricardo de Aguiar</title>
 </head>
 <body>
@@ -16,36 +16,21 @@
             <h1>Design Principles Document</h1>
             <h2>Jonathan Ricardo de Aguiar</h2>
         </header>
-        <main>
-            <section class="Design">
-                <h3>White Space and Clean Desgin</h3>
-                <h4>Google</h4>
-                <a href="https://www.google.com" target="_blank">google.com</a>
-                <img src="images/google_screenshot.png" alt="Screenshot of Google Website">
-                <p>The use of white space and clean design can be seen in this screenshot of the home page of the website Google. In this case, the only thing we can see with the company logo is the search bar and button to start the search, which is the main purpose of the website. The website isn't completely covered in large fonts or images that aren't necessary for the main goal because the design is minimalist.</p>
+        <main class="grid-container">
+            <!-- Card for Visual Hierarchy -->
+            <section class="card">
+                <h2>Visual Hierarchy</h2>
+                <p>Company: ExampleCorp</p>
+                <a href="https://www.examplecorp.com" target="_blank">Visit Website</a>
+                <img src="images/visual_hierarchy_screenshot_mobile.png" alt="Mobile Screenshot">
+                <p>Description: Example description of how visual hierarchy is exemplified on this page.</p>
             </section>
-
-            <section class="principle principle2">
-                <h3>PARC: Alignment</h3>
-                <h4>FamilySearch</h4>
-                <a href="https://www.familysearch.org/" target="_blank">familysearch.org</a>
-                <img src="images/familysearch_screenshot.png" alt="Screenshot of FamilySearch Website">
-                <p>The alignment principle is in use in this screenshot of the FamilySearch website's home page. We can appreciate the navigation's Centered Vertical Alignment, which allows all of the elements to fit in a single row. Additionally, if we use the 'Get Started' button as a point of reference, we can appreciate the banner's Centered Horizontal Alignment.
-                </p>
-            </section>
-
-            <section class="principle principle3">
-                <h3>PARC: Contrast</h3>
-                <h4>Infobae</h4>
-                <a href="https://www.infobae.com" target="_blank">infobae.com</a>
-                <img src="images/infobae_screenshotpng.png" alt="Screenshot of Infobae Website">
-                <p>The principle of contrast is used in this screenshot of the Infobae website's home page. The website's background is white, the text is black, and all other elements have a strong contrast to the white background. The text and the remaining items are both clearly readable.</p>
-            </section>
-        </main>
+    
+            <!-- Add similar sections for other design principles -->
+    </main>
+    
         <footer>
-            <p class="copyright">&copy; <span id="currentyear"></span> | Natanael da Matta |</p>
-            <p class="lastmodified">Last Modified:</p>        
-        </footer>
-        <script src="scripts/main.js"></script>
-</body>
-</html>
+            <p>&copy; 2024 Your Name</p>
+        </footer> </body>
+    
+    </html>
