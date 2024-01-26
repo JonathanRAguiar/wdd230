@@ -1,0 +1,31 @@
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, figure, dl, dd, ol, ul, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background-color: #f0f0f0;
+    }
+}
