@@ -10,9 +10,11 @@ body {
     align-items: center; 
     min-height: 100vh; 
 }
-.profile-pic {
-    width: 15%;
-    max-width: 25%;
+
+.profile-pic img {
+    width: 80%;
+    max-width: 100%;
+    align-items: center; 
 }
 
 .header {
