@@ -38,7 +38,7 @@ body {
     flex-direction: column;
 }
 
-.nav a {
+/*.nav a {
     display: block;
     padding: 10px;
     text-align: center;
@@ -46,7 +46,7 @@ body {
     text-decoration: none;
     border: 1px solid #ddd;
     margin-bottom: 5px;
-}
+}*/
 
 @media (min-width: 768px) {
     .nav {
@@ -62,12 +62,12 @@ body {
     .main {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; /* Create two columns */
+        justify-content: space-between; 
     }
 
     .main section {
-        width: 48%; /* Two columns with a small gap */
-        margin-bottom: 1rem; /* Add some spacing between sections */
+        width: 48%; 
+        margin-bottom: 1rem; 
     }
 }
 
